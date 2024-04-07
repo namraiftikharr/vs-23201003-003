@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>my biography</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0; /* Background color */
+            font-family: Arial, sans-serif;
+        }
+        .oval-div {
+            width: 300px; /* Adjust width as needed */
+            height: 200px; /* Adjust height as needed */
+            background-color: #fff; /* Oval div background color */
+            border-radius: 50%; /* Create oval shape */
+            margin: 50px auto;
+            overflow: hidden; /* Hide overflow content */
+            position: relative;
+        }
+        .oval-div img {
+            width: 100%; /* Make the image fill the div */
+            height: auto; /* Maintain aspect ratio */
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="oval-div">
+        <img src="your-image.jpg" alt="Your Picture">
+    </div>
+</body>
+</html>
